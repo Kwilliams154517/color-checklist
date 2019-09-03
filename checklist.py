@@ -1,4 +1,3 @@
- 
 # print('Hello World')
 checklist = list()
 
@@ -25,7 +24,8 @@ def create(item):
 
 
 def read(index):
-  return checklist[index]
+    print(checklist[index])
+    return checklist[index]
 
 
 def update(index, item):
@@ -107,3 +107,5 @@ while running:
 
 
 
+
+ 
